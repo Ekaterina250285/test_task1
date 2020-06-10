@@ -1,0 +1,10 @@
+Задание 1
+
+SELECT NumDoc, DateWr, Creator FROM StkDocs 
+
+Задание 2
+
+SELECT DISTINCT c.nm_ct FROM Contras AS c 
+INNER JOIN telct AS t ON c.codct=t.codct
+WHERE t.respondent IS NULL
+
